@@ -7,42 +7,53 @@
     <title>Page Title</title>
   </head>
   <body>
-    <div class="topnav">
-      <a href="index.html">About</a>
-      <a class="active" href="skills.html">Skills</a>
-      <a href="education.html">Education</a>
-      <a href="experience.html">Experience</a>
-      <a href="interests.html">Interests</a>
-    </div>
+    <nav class="navbar">
+      <ul class="nav-links">
+        <div class="menu">
+          <li><a href="index.html">About</a></li>
 
-    <br />
-    <img
-      src="Photo_Santiago_Garza_Fuentes.jpg"
-      width="300"
-      alt="Photo of Santiago"
-    />
-    <h2>Skills</h2>
-    <table style="font-size: 135%">
-      <tr>
-        <th>Technology</th>
-        <th>Level of Expertise</th>
-      </tr>
-      <tr>
-        <td>Python</td>
-        <td><progress value="67" max="100"></progress></td>
-      </tr>
-      <tr>
-        <td>C/C++</td>
-        <td><progress value="40" max="100"></progress></td>
-      </tr>
-      <tr>
-        <td>SQL</td>
-        <td><progress value="45" max="100"></progress></td>
-      </tr>
-      <tr>
-        <td>HTML</td>
-        <td><progress value="30" max="100"></progress></td>
-      </tr>
-    </table>
+          <li><a class="active" href="skills.html">Skills</a></li>
+
+          <li><a href="education.html">Education</a></li>
+
+          <li><a href="experience.html">Experience</a></li>
+
+          <li><a href="interests.html">Interests</a></li>
+        </div>
+      </ul>
+    </nav>
+
+    <div class="wrapper">
+      <div class="aside aside-1">
+        <img src="Photo_Santiago_Garza_Fuentes.jpg" alt="Photo of Santiago" />
+        <h1>Santiago Fuentes</h1>
+        <h2>Student</h2>
+        <a href="mailto:fuentes.santiago@outlook.com"
+          >fuentes.santiago@outlook.com</a
+        >
+      </div>
+        
+        
+      <div class="main">
+        <h3>Skills</h3>
+
+        <p>Python</p>
+        <div class="meter">
+          <span style="width: 67%"></span>
+        </div>
+        <p>C/C++</p>
+        <div class="meter">
+          <span style="width: 40%"></span>
+        </div>
+        <p>SQl</p>
+        <div class="meter">
+          <span style="width: 45%"></span>
+        </div>
+        <p>HTML</p>
+        <div class="meter">
+          <span style="width: 30%"></span>
+        </div>
+      </div>  
+    </div>
   </body>
 </html>
